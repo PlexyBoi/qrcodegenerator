@@ -7,7 +7,7 @@ qr = qrcode.QRCode(
     border= 5
 )
 
-data = input("url - ")
+data = input("URL - ")
 fileName= input("File Name - ")
 qr.add_data(data)
 qr.make(fit= True)
